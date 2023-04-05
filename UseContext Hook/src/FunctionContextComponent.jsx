@@ -10,7 +10,7 @@ const FunctionContextComponent = () => {
         <div>
             <button onClick={toggleTheme}>Change color</button>
             <div className='box' style={Theme}>
-                Hey There!
+                Hello
             </div>
         </div>
     )
