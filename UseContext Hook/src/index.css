@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: brown;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+}
+
+.box {
+  margin: 5rem 0 0 1rem;
+  font-weight: 800;
+  max-width: 200px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
